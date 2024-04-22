@@ -14,12 +14,10 @@ git clone https://github.com/yunlong10/AVicuna.git
 cd AVicuna
 ```
 
-## Data
-Download the meta data in JSON [here]() and place them into the `./data` folder.
+## Data & Checkpoints
+Download the meta data in JSON [here](https://drive.google.com/drive/folders/1KqdXVtXP8wyYIn6g-AJGeQqX_XS28OOy?usp=sharing) and place them into the `./data` folder.
 
-The video and audio features can be extracted by `./avicuna/get_clip.py` and `./avicuna/get_clap.py`. You can also down the extracted features [here]().
-
-
+Download the fine-tuned model's checkpoints [here](https://drive.google.com/drive/folders/1OaU59FW02pgM9iBg2X95x3o4EmlfYhli?usp=sharing) and place them into the `./checkpoints` folder.
 ```
 - data
     - stage1.json
@@ -43,6 +41,11 @@ The video and audio features can be extracted by `./avicuna/get_clip.py` and `./
 python -m avicuna.inference
 ```
 
+## Features
+The video and audio features can be extracted by `./avicuna/get_clip.py` and `./avicuna/get_clap.py`. You can also down the extracted features [here]().
+
+
+
 ## Training
 We train our model on a single NVIDIA A6000 48G GPU.
 
@@ -65,9 +68,6 @@ Stage IV: Instruction Tuning
 ```shell
 bash scripts/stage4.sh
 ```
-
-## Checkpoints
-Download the fine-tuned checkpoints
 
 
 ## Acknowledgements
