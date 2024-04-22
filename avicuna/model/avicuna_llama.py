@@ -7,7 +7,7 @@ from transformers.modeling_outputs import CausalLMOutputWithPast
 from .avicuna_arch import AVicunaMetaModel, AVicunaMetaForCausalLM
 
 class AVicunaConfig(LlamaConfig):
-    model_type = "avicuna"
+    model_type = "AVicuna"
 
 class AVicunaLlamaModel(LlamaModel, AVicunaMetaModel):
     config_class = AVicunaConfig

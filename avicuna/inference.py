@@ -65,10 +65,10 @@ def parse_args():
     parser.add_argument("--clip_path", type=str, default="checkpoints/clip/ViT-L-14.pt")
     parser.add_argument("--pretrain_mm_mlp_adapter", type=str, default="checkpoints/avicuna-vicuna-v1-5-7b-stage1/mm_projector.bin")
     parser.add_argument("--pretrain_mm_mlp_adapter_a", type=str, default="checkpoints/avicuna-vicuna-v1-5-7b-stage2/mm_projector_a.bin")
-    parser.add_argument("--stage3", type=str, default="checkpoints/avicuna-vicuna-v1-5-7b-stage3-12")
-    parser.add_argument("--stage4", type=str, default="checkpoints/avicuna-vicuna-v1-5-7b-stage4-insunav-12")
+    parser.add_argument("--stage3", type=str, default="checkpoints/avicuna-vicuna-v1-5-7b-stage3")
+    parser.add_argument("--stage4", type=str, default="checkpoints/avicuna-vicuna-v1-5-7b-stage4")
     parser.add_argument("--model_base", type=str, default="lmsys/vicuna-7b-v1.5")
-    parser.add_argument("--video_path", type=str, default="images/jump.mp4")
+    parser.add_argument("--video_path", type=str, default="demo/jump.mp4")
     parser.add_argument("--av_ratio", type=float, default=0.25)
     args = parser.parse_args()
 
@@ -113,7 +113,7 @@ if __name__ == "__main__":
             print(v_features.shape, a_features.shape)
         features = [v_features.unsqueeze(0), a_features.unsqueeze(0)]
 
-    query = "Is the person dancing from 43 to 83? And What is he doing after that and when?"# what can you hear from 20 to 90?What is the person doing from 17 to 42?
+    query = "Is the person dancing from 43 to 83? And What is he doing after that and when?"
     print("query: ", query)
     print("answer: ", inference(model, features, "<video>\n " + query, tokenizer))
 
