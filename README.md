@@ -72,19 +72,21 @@ bash scripts/stage4.sh
 
 ## Acknowledgements
 
-We are grateful for the following awesome projects our AVicuna arising from:
-
-* [LLaVA](https://github.com/haotian-liu/LLaVA): Large Language and Vision Assistant
-* [FastChat](https://github.com/lm-sys/FastChat): An Open Platform for Training, Serving, and Evaluating Large Language Model based Chatbots
-* [Video-ChatGPT](https://github.com/mbzuai-oryx/Video-ChatGPT): Towards Detailed Video Understanding via Large Vision and Language Models
-* [LLaMA](https://github.com/facebookresearch/llama): Open and Efficient Foundation Language Models
-* [Vid2seq](https://github.com/google-research/scenic/tree/main/scenic/projects/vid2seq): Large-Scale Pretraining of a Visual Language Model for Dense Video Captioning
-* [VTimeLLM](https://github.com/huangb23/VTimeLLM): A Vid-LLM for Fine-grained Video Moment Understanding
-* [InternVid](https://github.com/OpenGVLab/InternVideo/tree/main/Data/InternVid): A Large-scale Video-Text dataset
-* [UnAV-100](https://unav100.github.io): Untrimmed Audio-Visual Video dataset
-
+We are thankful for the following awesome projects our AVicuna arising from:
+* [LLaMA](https://github.com/facebookresearch/llama): Open and efficient foundation language models.
+* [FastChat](https://github.com/lm-sys/FastChat): An open platform for training, serving, and evaluating large language model based chatbots.
+* [Video-ChatGPT](https://github.com/mbzuai-oryx/Video-ChatGPT): Towards detailed video understanding via large vision and language models.
+* [Vid2seq](https://github.com/google-research/scenic/tree/main/scenic/projects/vid2seq): Large-scale pretraining of a visual language model for dense video captioning.
+* [VTimeLLM](https://github.com/huangb23/VTimeLLM): A Vid-LLM for fine-grained video moment understanding.
+* [VALOR-32K](https://github.com/TXH-mercury/VALOR): A audiovisual-language dataset.
+* [UnAV-100](https://unav100.github.io): An untrimmed video dataset for dense audio-visual event localization.
+* [Auto-ACD](https://auto-acd.github.io): a large-scale dataset for audio-language representation learning.
+* [AudioSet](https://research.google.com/audioset/index.html): A large-scale dataset of manually annotated audio events.
+* [AudioCap](https://audiocaps.github.io): Towards generating natural language description for any kind of audio in the wild.
+* [InternVid](https://github.com/OpenGVLab/InternVideo/tree/main/Data/InternVid): A large-scale video-text dataset.
 
 ## Citation
+
 
 ```bibtex
 @article{tang2024avicuna,
