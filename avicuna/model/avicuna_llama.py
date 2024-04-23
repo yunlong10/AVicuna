@@ -64,7 +64,9 @@ class AVicunaLlamaForCausalLM(LlamaForCausalLM, AVicunaMetaForCausalLM):
             )
         # print(type(input_ids), (position_ids.dtype), (attention_mask.dtype),(past_key_values), (inputs_embeds.dtype), type(labels))
         # print(inputs_embeds.dtype)
+        ###########
         inputs_embeds = inputs_embeds.to(torch.bfloat16) if inputs_embeds is not None else inputs_embeds
+        ###########
         # exit()
         return super().forward(
             input_ids=input_ids,
