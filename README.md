@@ -7,15 +7,15 @@ Repo for the paper ["AVicuna: Audio-Visual LLM with Interleaver and Context-Boun
 
 We recommend setting up a conda environment for the project:
 ```shell
-conda env create -f avicuna.yml
-conda activate avicuna
-
 git clone https://github.com/yunlong10/AVicuna.git
 cd AVicuna
+
+conda env create -f avicuna.yml
+conda activate avicuna
 ```
 
 ## Data & Checkpoints
-Download the meta data in JSON [here](https://drive.google.com/drive/folders/1KqdXVtXP8wyYIn6g-AJGeQqX_XS28OOy?usp=sharing) and place them into the `./data` folder.
+Download the metadata in JSON [here](https://drive.google.com/drive/folders/1KqdXVtXP8wyYIn6g-AJGeQqX_XS28OOy?usp=sharing) and place them into the `./data` folder.
 
 Download the fine-tuned model's checkpoints [here](https://drive.google.com/drive/folders/1OaU59FW02pgM9iBg2X95x3o4EmlfYhli?usp=sharing) and place them into the `./checkpoints` folder.
 ```
