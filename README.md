@@ -42,7 +42,7 @@ python -m avicuna.inference
 ```
 
 ## Features
-The video and audio features can be extracted by `./avicuna/get_clip.py` and `./avicuna/get_clap.py`. You can also down the extracted features [here]().
+The video and audio features can be extracted by `./avicuna/get_clip.py` and `./avicuna/get_clap.py`. You can also download the extracted features [here]().
 
 
 
