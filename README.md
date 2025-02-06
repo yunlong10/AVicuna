@@ -1,6 +1,8 @@
 # AVicuna
 Repo for the paper ["Empowering LLMs with Pseudo-Untrimmed Videos for Audio-Visual Temporal Understanding"](https://arxiv.org/abs/2403.16276).
 
+<img src="./assets/teaser.png" />
+
 ---
 
 ## Installation
