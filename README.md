@@ -1,5 +1,5 @@
 # AVicuna
-Repo for the paper ["AVicuna: Audio-Visual LLM with Interleaver and Context-Boundary Alignment for Temporal Referential Dialogue"](https://arxiv.org/abs/2403.16276).
+Repo for the paper ["Empowering LLMs with Pseudo-Untrimmed Videos for Audio-Visual Temporal Understanding"](https://arxiv.org/abs/2403.16276).
 
 ---
 
@@ -90,8 +90,8 @@ We are thankful for the following awesome projects our AVicuna arising from:
 
 ```bibtex
 @article{tang2024avicuna,
-  title={AVicuna: Audio-Visual LLM with Interleaver and Context-Boundary Alignment for Temporal Referential Dialogue},
-  author={Tang, Yunlong and Shimada, Daiki and Bi, Jing and Xu, Chenliang},
+  title={Empowering LLMs with Pseudo-Untrimmed Videos for Audio-Visual Temporal Understanding},
+  author={Tang, Yunlong and Shimada, Daiki and Bi, Jing and Feng, Mingqian and Hua, Hang and Xu, Chenliang},
   journal={arXiv preprint arXiv:2403.16276},
   year={2024}
 }
