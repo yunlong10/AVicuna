@@ -3,6 +3,8 @@ Repo for the paper ["Empowering LLMs with Pseudo-Untrimmed Videos for Audio-Visu
 
 <img src="./assets/teaser.png" />
 
+<img src="./assets/model.png" />
+
 ---
 
 ## Installation
