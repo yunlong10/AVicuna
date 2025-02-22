@@ -61,7 +61,7 @@ Stage II: Audio-Text Alignment
 bash scripts/stage2.sh
 ```
 
-Stage III: Context-Boundary Alignment
+Stage III: Time-Event Alignment
 ```shell
 bash scripts/stage3.sh
 ```
