@@ -74,6 +74,10 @@ bash scripts/stage4.sh
 ```
 
 
+## Pseudo-Untrimmed Video Construction
+Coming soon ...
+<img src="./assets/data.png" />
+
 ## Acknowledgements
 
 This work was supported by Sony Group Corporation. We would like to thank Sayaka Nakamura and Jerry Jun Yokono for insightful discussion.
