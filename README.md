@@ -74,9 +74,9 @@ bash scripts/stage4.sh
 ```
 
 
-## Pseudo-Untrimmed Video Construction
+## Pseudo-Untrimmed Video Construction Pipeline
 Coming soon ...
-<img src="./assets/data.png" />
+<img src="./assets/pipeline.png" />
 
 ## Acknowledgements
 
