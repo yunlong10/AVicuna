@@ -76,7 +76,10 @@ bash scripts/stage4.sh
 
 ## Acknowledgements
 
-We are thankful for the following awesome projects our AVicuna arising from:
+This work was supported by Sony Group Corporation. We would like to thank Sayaka Nakamura and Jerry Jun Yokono for insightful discussion.
+
+
+We are also thankful for the following awesome projects our AVicuna arising from:
 * [LLaMA](https://github.com/facebookresearch/llama): Open and efficient foundation language models.
 * [FastChat](https://github.com/lm-sys/FastChat): An open platform for training, serving, and evaluating large language model based chatbots.
 * [Video-ChatGPT](https://github.com/mbzuai-oryx/Video-ChatGPT): Towards detailed video understanding via large vision and language models.
